@@ -1,2 +1,2 @@
-# project-auto-sync
-自动同步fork的上游项目
+# fork-auto-sync
+自动同步fork项目

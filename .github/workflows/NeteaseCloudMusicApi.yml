@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: TobKed/github-forks-sync-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # 令牌
+          github_token: ${{ secrets.ACTION_TOKEN }} # 令牌
           upstream_repository: Binaryify/NeteaseCloudMusicApi  # 上游仓库
           target_repository: ANTLEEI/NeteaseCloudMusicApi  # 你要推送的仓库
           upstream_branch: master  # 默认是拉取上游仓库的master分支
